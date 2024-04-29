@@ -15,7 +15,7 @@ Interface type blog :
 Fonctionnalités : 
 
 Ajouter une idée / projet
-	-Prérequis :
+- Prérequis :
 		- Repo GitHub a son nom
 		- Titre
 		- Description de l'idée
@@ -24,19 +24,19 @@ Ajouter une idée / projet
 		- Ajouter page pour projet
 
 Modifier l'état d'un projet
-	-Prérequis :
+- Prérequis :
 		- Projet existe
-	- Actions :
+- Actions :
 		- Changer values dans BDD pour projet
 
 Afficher Tous les Projets : 
-	-Prérequis :
+- Prérequis :
 		- Récup liste des projets
-	- Actions :
+- Actions :
 		- afficher éléments light pour chaque projet (Titre, desc tronquée, lien vers la page, lien vers Github / site fonctionnel)
 
 Afficher le détail d'un Projet : 
-	-Prérequis : 
+- Prérequis : 
 		- Récupérer les infos du projet
-	- Actions : 
+- Actions : 
 		- Afficher une page avec toutes les infos du projet (Titre, desc, lien repo Github, lien siter fonctionnel)
