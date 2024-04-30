@@ -1,0 +1,8 @@
+{
+        "projets" : {
+            "ID" : 0,
+            "Titre" : "ProjectViewer",
+            "Desc" : "Projet pour répertorier mes projets : \r projets référencés grâce au sous rép dans mon github perso. Site servant d'aperçu pour mes projets en cours, mes idées et les projets complétés. \r Interface type blog : \r Page d'acceuil avec liste des projets, tri selon état d'avancement (prévu / en cours / terminé) \r page de détails par projet (Titre, desc, date de l'idée, fichiers liés/lien github) \r page pour ajouter un projet ( Titre, desc, lien rep github).",
+            "Repo" : "https://github.com/KlawDev26/ProjectViewer"
+        }    
+}
