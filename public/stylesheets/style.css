@@ -1,8 +1,52 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.1fr 2fr 0.2fr;
+  align-content: center;
+  gap: 30px;
+  
 }
 
 a {
   color: #00B7FF;
+}
+div.headHtml {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+div.projectContainer {
+  align-self: center;
+  align-items: center;
+  grid-column: 2/3;
+  text-align: center;
+  
+}
+
+div.projectElement {
+  align-content: center;
+  padding-bottom: 50px;
+}
+
+div.projectElement>h2 {
+  text-align: center;
+}
+
+div.projectElement>a {
+  text-align: center;
+}
+
+div.projectElement>p {
+  text-align: justify;
+
+}
+
+.titre {
+  text-align: center;
+  align-self: center;
+  width: 100%;
 }

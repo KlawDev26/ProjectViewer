@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div(class='headHtml')
+    h1(class='titre') #{title}
+    p Welcome to #{title}
+  div(class='projectContainer')
+    mixin projectElement(ID, Titre, Desc, Repo)
+      div(id='#{ID}', class='projectElement') 
+        h2 #{Titre}
+        p #{Desc} 
+        a(href='#{Repo}', class='button') Accéder au code
+    each project in json.projects
+      +projectElement(project.ID, project.Titre, project.Desc, project.Repo)
